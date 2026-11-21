@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Saffron & Sage — fresh, soulful food made with love.">
+		<title>Saffron & Sage | Food for the soul</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap"
+			rel="stylesheet">
+
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js" defer></script>
+	</head>
+
+	<body>
+
+		<div class="announcement">
+			A little extra love in every bite
+			<span>✦</span>
+			Free delivery on orders over ₹799
+		</div>
+
+		<header class="site-header">
+			<a class="brand" href="#home">
+				<span class="brand-mark">✳</span>
+				<span>SAFFRON <i>&</i> SAGE
+					<small>GOOD FOOD. GOOD MOOD.</small>
+				</span>
+			</a>
+
+			<button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+
+			<nav class="nav-links">
+				<a href="#menu">Our menu</a>
+				<a href="#story">Our story</a>
+				<a href="#reviews">Reviews</a>
+				<a class="nav-order" href="#menu">Order now ↗</a>
+			</nav>
+		</header>
+
+		<main>
+
+			<!-- HERO SECTION -->
+			<section class="hero" id="home">
+
+				<div class="hero-copy">
+					<p class="eyebrow">
+						<span></span> FRESHLY MADE, HAPPILY SERVED
+					</p>
+
+					<h1>Good food.<br><em>Great</em> feelings.</h1>
+
+					<p class="hero-description">
+						Thoughtful ingredients, bold little flavours,
+						and meals that make an ordinary day feel special.
+					</p>
+
+					<div class="hero-actions">
+						<a class="button button-dark" href="#menu">
+							Explore the menu <span>→</span>
+						</a>
+						<a class="text-link" href="#story">
+							Get to know us ↗
+						</a>
+					</div>
+
+					<div class="hero-note">
+						<div class="avatar-stack">
+							<span>☺</span><span>☺</span><span>☺</span>
+						</div>
+						<div>
+							<strong>Loved by food lovers</strong>
+							<small>Made fresh. Served with a smile.</small>
+						</div>
+					</div>
+				</div>
+
+				<div class="hero-visual">
+					<div class="hero-image"></div>
+
+					<div class="floating-card">
+						<span class="sparkle">✦</span>
+						<div>
+							<strong>Freshness</strong>
+							<small>you can taste</small>
+						</div>
+					</div>
+
+					<div class="round-stamp">
+						MADE WITH<br>♡ & CARE
+					</div>
+				</div>
+
+				<div class="hero-bottom">
+					SEASONAL • LOCAL • DELICIOUS
+				</div>
+
+			</section>
+
+			<!-- MENU SECTION -->
+			<section class="menu-section section-pad" id="menu">
+
+				<div class="section-heading">
+					<div>
+						<p class="eyebrow">A FEW HOUSE FAVOURITES</p>
+						<h2>Made to make<br>you <em>crave more.</em></h2>
+					</div>
+
+					<p>
+						From colourful bowls to comfort classics,
+						there's something lovely waiting for you.
+					</p>
+				</div>
+
+				<div class="filter-row">
+					<button class="filter active" data-filter="all">All favourites</button>
+					<button class="filter" data-filter="bowls">Wholesome bowls</button>
+					<button class="filter" data-filter="mains">Mains</button>
+					<button class="filter" data-filter="sweet">Something sweet</button>
+				</div>
+
+				<div class="menu-grid">
+
+					<article class="food-card" data-category="bowls">
+						<div class="food-image food-one">
+							<span class="food-tag">BESTSELLER</span>
+							<button class="add-btn">+</button>
+						</div>
+						<div class="food-info">
+							<div>
+								<h3>Green goddess bowl</h3>
+								<p>Avocado · greens · herby dressing</p>
+							</div>
+							<strong>₹329</strong>
+						</div>
+					</article>
+
+					<article class="food-card" data-category="mains">
+						<div class="food-image food-two">
+							<button class="add-btn">+</button>
+						</div>
+						<div class="food-info">
+							<div>
+								<h3>Rustic tomato pasta</h3>
+								<p>Slow-roasted tomato · basil · parmesan</p>
+							</div>
+							<strong>₹379</strong>
+						</div>
+					</article>
+
+					<article class="food-card" data-category="bowls">
+						<div class="food-image food-three">
+							<button class="add-btn">+</button>
+						</div>
+						<div class="food-info">
+							<div>
+								<h3>Rainbow crunch bowl</h3>
+								<p>Seasonal veggies · grains · sesame</p>
+							</div>
+							<strong>₹299</strong>
+						</div>
+					</article>
+
+					<article class="food-card" data-category="sweet">
+						<div class="food-image food-four">
+							<span class="food-tag">A SWEET FAVOURITE</span>
+							<button class="add-btn">+</button>
+						</div>
+						<div class="food-info">
+							<div>
+								<h3>Berry cloud cheesecake</h3>
+								<p>Silky cream · berries · biscuit crumb</p>
+							</div>
+							<strong>₹249</strong>
+						</div>
+					</article>
+
+				</div>
+
+				<p class="menu-footnote">
+					Our menu changes with the seasons, so there's always something new to love.
+				</p>
+
+			</section>
+
+			<!-- STORY SECTION -->
+			<section class="story-section" id="story">
+
+				<div class="story-image"></div>
+
+				<div class="story-copy">
+					<p class="eyebrow">THE HEART OF SAFFRON & SAGE</p>
+
+					<h2>
+						Food tastes better<br>
+						when it's made<br>
+						<em>with intention.</em>
+					</h2>
+
+					<p>
+						We believe the best meals begin with good ingredients
+						and end with happy people. That's why we keep things
+						fresh, cook in small batches, and put a little extra
+						care into every plate.
+					</p>
+
+					<a class="button button-light" href="#reviews">
+						A taste of our world →
+					</a>
+				</div>
+
+			</section>
+
+			<!-- REVIEWS -->
+			<section class="quote-section section-pad" id="reviews">
+
+				<p class="eyebrow">KIND WORDS, FULL HEARTS</p>
+
+				<div class="quote-mark">“</div>
+
+				<blockquote>
+					Every bite feels thoughtful. Fresh, comforting,
+					and somehow exactly what I needed.
+				</blockquote>
+
+				<div class="reviewer">
+					<span class="review-stars">★★★★★</span>
+					<strong>ANANYA R.</strong>
+					<small>Happy regular</small>
+				</div>
+
+			</section>
+
+			<!-- CALL TO ACTION -->
+			<section class="cta-section">
+
+				<div>
+					<p class="eyebrow">YOUR NEXT FAVOURITE MEAL IS HERE</p>
+					<h2>Come hungry.<br><em>Leave happy.</em></h2>
+				</div>
+
+				<a class="button button-dark" href="#menu">
+					Find your favourite ↗
+				</a>
+
+				<span class="cta-doodle">✳</span>
+
+			</section>
+
+		</main>
+
+		<!-- FOOTER -->
+		<footer class="footer">
+
+			<a class="brand footer-brand" href="#home">
+				<span class="brand-mark">✳</span>
+				<span>SAFFRON <i>&</i> SAGE
+					<small>GOOD FOOD. GOOD MOOD.</small>
+				</span>
+			</a>
+
+			<p>Fresh food, warm moments, always.</p>
+
+			<div class="footer-bottom">
+				<span>© <span id="year"></span> Saffron & Sage</span>
+				<span>Made with care ♥</span>
+				<a href="#home">Back to top ↑</a>
+			</div>
+
+		</footer>
+
+		<div class="toast" role="status" aria-live="polite"></div>
+
+	</body>
+
+</html>
